@@ -34,7 +34,7 @@ def fit_drag_coefficient(data, curve_color, points_color):
     return a1_fit, a2_fit, a3_fit
 
 def main():
-    st.title('Drag Coefficient Fitting')
+    st.title('Drag Coefficient Fitting for Flow with Spherical Particles')
 
     uploaded_file = st.file_uploader('Upload CSV file', type=['csv'])
 
